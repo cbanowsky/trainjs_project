@@ -1,0 +1,14 @@
+<p notice id="notice"></p>
+
+<p>
+	<strong>Content:</strong>
+	{{ micropost.content }}
+</p>
+<p>
+	<strong>User_id:</strong>
+	{{ micropost.user_id }}
+</p>
+
+
+<a href ui-sref="micropost_form({id: micropost.id})">Edit</a> |
+<a href ui-sref="microposts">Back</a>
